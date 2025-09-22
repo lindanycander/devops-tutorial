@@ -7,7 +7,10 @@
     },
     "steps": [
       {
-        "text": ["execution.md", "outro.md"]
+        "text": "execution.md"
+      },
+      {
+        "text": "outro.md"
       }
     ]
   },
