@@ -1,6 +1,6 @@
 {
-  "title": "Code Actions",
-  "description": "Let users copy or exec code blocks",
+  "title": "Deploying an Iris ML Model with FastAPI",
+  "description": "Train a simple ML model on the Iris dataset, deploy it as an API using FastAPI + Uvicorn, and interact with it via curl.",
   "details": {
     "intro": {
       "text": "intro.md"
