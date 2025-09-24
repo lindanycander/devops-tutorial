@@ -33,7 +33,7 @@ We expect this as output: `{"message":"Iris model API is running!"}`.
 
 ### 7. Then run this command to get a prediction from the model `curl -X POST "http://localhost:8000/predict?sepal_length=5.1&sepal_width=3.5&petal_length=1.4&petal_width=0.2"`.
 
-We expect this output: `{"prediction":0}`.
+We expect this output: `{"prediction":0,"name":"setosa"}`.
 
 This command sends measurements of a flower to the model for getting a prediction.
 
