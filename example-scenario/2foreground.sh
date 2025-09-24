@@ -27,7 +27,7 @@ def predict(sepal_length: float, sepal_width: float, petal_length: float, petal_
 @app.get("/easter-egg")
 def secret():
     return {"secret": "Congrats, you found the easter egg! 🎉"}
-' > '~/iris/app.py'
+' > ~/iris/app.py
 
 echo 'from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
@@ -46,4 +46,4 @@ joblib.dump(model, "iris_model.pkl")
 
 # Print confirmation message
 print("Model trained and saved as iris_model.pkl")
-' > '~/iris/train.py'
+' > ~/iris/train.py
