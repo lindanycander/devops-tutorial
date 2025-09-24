@@ -7,10 +7,15 @@
     },
     "steps": [
       {
-        "text": "execution.md"
+        "text": "1.md",
+        "verify": "1verify.sh"
       },
       {
-        "text": "outro.md"
+        "text": "2.md",
+        "foreground": "2foreground.sh"
+      },
+      {
+        "text": "3.md"
       }
     ]
   },
